@@ -2,7 +2,7 @@ fn main() {
     use cmake::Config;
 
     cxx_build::bridge("src/lib.rs");
-    let dst = Config::new("g2o")
+    let _dst = Config::new("g2o")
                     .build_target("g2o")
                     .build();
 

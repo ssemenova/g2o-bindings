@@ -176,7 +176,7 @@ g2o/stuff/os_specific.h
 g2o/stuff/string_tools.cpp
 g2o/stuff/property.cpp       
 g2o/stuff/property.h       
-#rust helper
+# rust bindings
 g2o/rust/rust_helper.cpp
 ../target/cxxbridge/g2orust/src/lib.rs.cc
 )
